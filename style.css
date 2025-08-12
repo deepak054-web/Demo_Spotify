@@ -368,7 +368,7 @@ transition:1s;
     max-width: 100%;
     display: flex;
     gap: 20px;
-    margin: 50px auto;
+    margin-top: 50px;
   }
   .item1{
     width: 25%;
@@ -403,4 +403,11 @@ transition:1s;
       border-radius: 50%;
       background-color:#727272;
       padding: 10px;
+    }
+    .Designed{
+      width: 100%;
+      margin-bottom: 20px;
+      color: purple;
+      text-align: center;
+      padding:20px 0px;
     }
