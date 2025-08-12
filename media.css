@@ -1,0 +1,86 @@
+@media only screen and (min-width:220px) and (max-width:575px)
+{
+   .nav-links {
+    display: none;
+    }
+  .search-box {
+    display: none;
+  }
+
+.sidebar{
+  width: 100%;
+  height:50px;
+  /* border: 1px solid red; */
+  display:flex;
+  position:fixed;
+  bottom: 0px;
+  background-color: #0000007d;
+}
+.sidebar>a{
+  color: white;
+}
+.leftSection {
+        display: none;
+    }
+
+    .rytSection {
+        margin: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .header-container .bars{
+      display:flex;
+    }
+    /* Songs in 2 columns on small phones */
+    .RytMid1 {
+        flex-wrap: wrap;
+    }
+    .RytMid1 figure {
+        width:48%;
+    }
+
+    .RytMid2 {
+        flex-wrap: wrap;
+    }
+    .RytMid2 figure {
+        width:100%;
+    }
+    .RytMid3,.RytMid4{
+      flex-direction: column;
+    } 
+    .RytMid3 figure,.RytMid4 figure {
+        width:100%;
+    }
+.RytMid1>figure>div>i,.RytMid2>figure>div>i,.RytMid3>figure>div>i,.RytMid4>figure>div>i{
+       font-size:20px;
+       width: 30px;
+       height:30px;
+      top:100px;
+      left:85px;
+  }
+footer{
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+  .item1{
+    width:100%;
+  }
+  hr{
+    display: none;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
